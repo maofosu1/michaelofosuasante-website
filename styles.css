@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8B88B;
+}
+
+#header {
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    background-image: url('AdobeStock_564832623.jpeg');
+    background-size: cover;
+    color: white;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+}
+
+h1, h4 {
+    color: white;
+}
+
+h2 {
+    color: #555;
+    text-align: center;
+}
+
+h3 {
+    color: #777;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #368BC1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Additional styling for the navigation bar */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin-right: 10px; /* Adjust the value to increase or decrease the space */
+}
+
+/* Styling for the CV download link */
+#CV a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#CV a:hover {
+    background-color: #45a049;
+}
